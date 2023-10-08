@@ -5,8 +5,8 @@ body{
     font-weight: 400;
 }
 a{
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
     /* Header */
@@ -20,6 +20,7 @@ header{
     background-color: white;
     z-index: 2;
 }
+
 .logo{
     margin: 40px 451px 40px 71px;
     height: 65px;
@@ -31,6 +32,14 @@ nav ul{
     margin: 42.6px 0px;
     padding: 0;
     list-style-type: none;
+}
+nav ul li a:nth-child(4){
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #7AE5FD;
+    border-radius: 87px;
+    padding: 21px 35px;
 }
 nav ul li:nth-child(2){
     margin: 0px 56px;
@@ -52,7 +61,7 @@ nav ul li:nth-child(4){
     background-size: cover;
     box-sizing: border-box;
 }
-.first-screen h1{
+.first-screen h2{
     margin: 0;
     height: 248px;
     font-size: 65px;
@@ -64,20 +73,12 @@ nav ul li:nth-child(4){
 .first-screen p{
     font-size: 20px;
     width: 484px;
+    margin-bottom: 40px;
 }
-.first-screen button{
-    font-family: "Montserrat";
-    font-weight: 400;
-    font-size: 18px;
-    padding: 21px 35px;
-    border: none;
-    border-radius: 87px;
+.first-screen a{
     background-color: white;
-    height: 59px;
-    width: 264px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 87px;
+    padding: 21px 35px;
 }
 .first-screen div{
     width: 686.31px;
@@ -89,7 +90,7 @@ nav ul li:nth-child(4){
     margin: 160px 0px;
     text-align: center;
 }
-.second-screen h1{
+.second-screen h2{
     height: 144px;
     margin: auto;
     font-weight: 400;
@@ -127,7 +128,7 @@ nav ul li:nth-child(4){
     margin: 51px 62px  51px 0px;
     width: 527px;
 }
-.info-block div h1{
+.info-block div h2{
     margin: 0;
     font-size: 46px;
     font-weight: 400;
@@ -145,20 +146,17 @@ nav ul li:nth-child(4){
 .info-block img{
     border-radius: 10px;
 }
-.info-button button{
-    font-family: "Montserrat";
-    font-weight: 400;
+.info-button a{ 
     font-size: 18px;
     padding: 21px 35px;
     background-color: #7AE5FD;
-    border: none;
     border-radius: 87px;
 }
 .third-screen .info-block:nth-child(2){
     margin: 50px 0px;
 }
 .third-screen .info-block:nth-child(3){
-    margin: 50px;
+    margin: 50px 0px 71px 0px;
 }
 
     /* Fourth Section */
@@ -178,7 +176,7 @@ nav ul li:nth-child(4){
 .fourth-screen p{
     width: 558px;
     font-size: 27.27px;
-    line-height: 32.73pxs;
+    line-height: 32.73px;
     margin: 90px 647px 90px 62px;
     padding: 0px;
 }
@@ -203,10 +201,10 @@ nav ul li:nth-child(4){
     justify-content: center;
     align-items: center;
 }
-.fifth-screen h1{
+.fifth-screen h2{
     font-weight: 400;
     font-size: 60px;
-    letter-spacing: -2%;
+    letter-spacing: -1.3px;
     margin: 0px;
 }
 .fifth-screen h4{
@@ -232,8 +230,7 @@ nav ul li:nth-child(4){
     border-right: solid 2px #9AD2DE;
     padding: 0px 13px;
 }
-.fifth-screen button{
-    font-family: "Montserrat";
+.fifth-screen a{
     font-size: 18px;
     padding: 21px 35px;
     background-color: #7AE5FD;
@@ -255,7 +252,7 @@ nav ul li:nth-child(4){
 .sixth-screen .contacts{
     display: flex;
 }
-.sixth-screen .contacts h1{
+.sixth-screen .contacts h2{
     font-weight: 400;
     font-size: 60px;
     margin: 0px 226.25px 159px 133.25px;
@@ -269,7 +266,8 @@ nav ul li:nth-child(4){
 .sixth-screen .contacts div img:nth-child(4){
     margin-bottom: 5px;
 }
-.sixth-screen .contacts p{
+.sixth-screen .contacts h6{
+    font-weight: 400;
     width: 440px;
     font-size: 20px;
     margin: 0px;
@@ -316,11 +314,11 @@ nav ul li:nth-child(4){
     margin: 31px 0px;
 }
 .sixth-screen .email div input::placeholder{
-    margin: 21px, 400px, 21px, 43px;
+    margin: 21px 400px 21px 43px;
     color: black;
 }
-.sixth-screen .email div button{
-    font-family: "Montserrat";
+.sixth-screen .email div a{
+    text-align: center;
     font-size: 18px;
     background-color: #7AE5FD;
     border: none;
