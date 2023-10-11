@@ -1,6 +1,6 @@
 body{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     font-family: "Montserrat";
     font-weight: 400;
 }
@@ -8,104 +8,100 @@ a{
     text-decoration: none;
     color: black;
 }
+.link-button{
+    font-size: 18px;
+    background-color: #7AE5FD;
+    border-radius: 5.4375rem;
+    padding: 1.3125rem 2.1875rem;
+    line-height: 96.896%;
+    font-size: 1.125rem;
+}
 
     /* Header */
 
 header{
     display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 144px;
     position: fixed;
     top: 0;
     background-color: white;
     z-index: 2;
+    align-items: center;
 }
 
 .logo{
-    margin: 40px 451px 40px 71px;
-    height: 65px;
-    width: 65px;
+    width: 4.0625rem;
+    height: 4.012rem;
+    flex-shrink: 0;
+    margin: 2.5rem 0 2.5rem 4.44rem;
 }
 nav ul{
     display: flex;
     align-items: center;
-    margin: 42.6px 0px;
+    margin: 2.66rem 4.44rem 2.66rem 0rem;
     padding: 0;
     list-style-type: none;
 }
-nav ul li a:nth-child(4){
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    background-color: #7AE5FD;
-    border-radius: 87px;
-    padding: 21px 35px;
-}
+
 nav ul li:nth-child(2){
-    margin: 0px 56px;
+    margin: 0 3.5rem;
 }
 nav ul li:nth-child(4){
-    margin-left: 24px;
-    background-color: #7AE5FD;
-    padding: 21px 35px;
-    border-radius: 87px;
+    margin-left: 1.5rem;
 }
 
     /* First Section */
 
 .first-screen{
     width: 100%;
-    padding: 202.31px 0px 202.69px 105px;
-    margin-top: 142px;
+    padding: 12.66rem 0 12.72rem 6.56rem;
+    margin-top: 8.9rem;
     background-image: url("../images/first-screen-background.png");
     background-size: cover;
     box-sizing: border-box;
 }
 .first-screen h2{
     margin: 0;
-    height: 248px;
-    font-size: 65px;
+    height: 15.5rem;
+    width: 42.89456rem;
+    font-size: 4.0625rem;
     font-weight: 800;
-    line-height: 61.69px;
+    line-height: 94.9%;
     color: white;
-    letter-spacing: -1.3px;
+    letter-spacing: -0.08125rem;
 }
 .first-screen p{
-    font-size: 20px;
-    width: 484px;
-    margin-bottom: 40px;
+    font-size: 1.25rem;
+    width: 30.25rem;
+    margin-bottom: 2.5rem;
 }
 .first-screen a{
     background-color: white;
-    border-radius: 87px;
-    padding: 21px 35px;
-}
-.first-screen div{
-    width: 686.31px;
 }
 
     /* Second Section */
 
 .second-screen{
-    margin: 160px 0px;
+    margin: 10rem 0;
     text-align: center;
 }
 .second-screen h2{
-    height: 144px;
+    line-height: 120%;
     margin: auto;
     font-weight: 400;
-    font-size: 60px;
-    width: 1004px;
+    font-size: 3.75rem;
+    width: 62.75rem;
 }
 .second-screen h3{
-    height: 32px;
-    margin: 15px 0px 10px 0px;
+    margin: 0.94rem 0 0.63rem 0;
     font-weight: 400;
-    font-size: 27px;
+    line-height: 120%;
+    font-size: 1.6875rem;
 }
 .second-screen p{
-    margin: 0px;
-    font-size: 20px;
+    margin: 0;
+    font-size: 1.25rem;
     color: #73A6B1;
 }
 
@@ -119,44 +115,38 @@ nav ul li:nth-child(4){
 }
 .third-screen .info-block{
     background-color: #F1FDFF;
-    padding: 40px 62px;
+    padding: 2.5rem 3.88rem;
     box-sizing: border-box;
-    margin: 0px;
+    margin: 0;
     display: flex;
 }
 .info-block div{
-    margin: 51px 62px  51px 0px;
-    width: 527px;
+    margin: 3.19rem 3.88rem 3.19rem 0;
+    width: 32.9375rem;
 }
 .info-block div h2{
     margin: 0;
-    font-size: 46px;
+    font-size: 2.875rem;
     font-weight: 400;
-    line-height: 55.2px;
+    line-height: 120%;
 }
 .info-block div h3{
-    margin: 10px 0px;
-    font-size: 20px;
+    margin: 0.62rem 0;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 .info-block div p{
     margin: 0;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .info-block img{
-    border-radius: 10px;
-}
-.info-button a{ 
-    font-size: 18px;
-    padding: 21px 35px;
-    background-color: #7AE5FD;
-    border-radius: 87px;
+    border-radius: 0.625rem;
 }
 .third-screen .info-block:nth-child(2){
-    margin: 50px 0px;
+    margin: 3.13rem 0;
 }
 .third-screen .info-block:nth-child(3){
-    margin: 50px 0px 71px 0px;
+    margin: 3.13rem 0 4.4365rem 0;
 }
 
     /* Fourth Section */
@@ -166,30 +156,30 @@ nav ul li:nth-child(4){
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 380px;
+    padding-top: 23.75rem;
     box-sizing: border-box;
-    margin-bottom: 140px;
+    margin-bottom: 8.75rem;
 }
 .fourth-screen div{
     background-color: #F1FDFF;
 }
 .fourth-screen p{
-    width: 558px;
-    font-size: 27.27px;
-    line-height: 32.73px;
-    margin: 90px 647px 90px 62px;
-    padding: 0px;
+    width: 34.875rem;
+    font-size: 1.7rem;
+    line-height: 120%;
+    margin: 5.625rem 40.4375rem 5.625rem 3.875rem;
+    padding: 0;
 }
 .fourth-screen img:nth-child(2){
     z-index: 1;
     position: absolute;
-    margin-left: 805px;
-    margin-bottom: 253px;
+    margin-left: 50.3125rem;
+    margin-bottom: 15.8125rem;
 }
 .fourth-screen img:nth-child(3){
     position: absolute;
-    margin-left: 682px;
-    margin-bottom: 197px;
+    margin-left: 42.625rem;
+    margin-bottom: 12.3125rem;
 }
 
     /* Fifth Section */
@@ -203,46 +193,39 @@ nav ul li:nth-child(4){
 }
 .fifth-screen h2{
     font-weight: 400;
-    font-size: 60px;
-    letter-spacing: -1.3px;
-    margin: 0px;
+    font-size: 3.75rem;
+    letter-spacing: -0.075rem;
+    margin: 0;
 }
 .fifth-screen h4{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #73A6B1;
-    width: 739px;
+    width: 46.1875rem;
     text-align: center;
-    margin: 15px 0px 50px 0px;
+    margin: 0.9375rem 0 3.125rem 0;
 }
 .fifth-screen h3{
     font-weight: 400;
-    font-size: 27px;
-    line-height: 32.4px;
-    margin: 0px;
+    font-size: 1.6875rem;
+    line-height: 120%;
+    margin: 0;
 }
 .fifth-screen p{
-    font-size: 60px;
-    margin: 17px 0px 50px 0px;
+    font-size: 3.75rem;
+    margin: 1.0625rem 0 3.125rem 0;
 }
 .fifth-wrapper{
-    border-left: solid 2px #9AD2DE;
-    border-right: solid 2px #9AD2DE;
-    padding: 0px 13px;
-}
-.fifth-screen a{
-    font-size: 18px;
-    padding: 21px 35px;
-    background-color: #7AE5FD;
-    border: none;
-    border-radius: 87px;
+    border-left: solid 0.125rem #9AD2DE;
+    border-right: solid 0.125rem #9AD2DE;
+    padding: 0 0.8125rem;
 }
 
     /* Sixth Section */
 
 .sixth-screen{
-    margin-top: 160px;
-    padding: 50px 71px 160px 71px;
+    margin-top: 16rem;
+    padding: 3.125rem 4.4375rem 10rem 4.4375rem;
     background-color: #F9FADF;
     display: flex;
     justify-content: center;
@@ -254,33 +237,33 @@ nav ul li:nth-child(4){
 }
 .sixth-screen .contacts h2{
     font-weight: 400;
-    font-size: 60px;
-    margin: 0px 226.25px 159px 133.25px;
+    font-size: 3.75rem;
+    margin: 0 14.14rem 9.9375rem 8.3281rem;
 }
 .sixth-screen .contacts div img:nth-child(1){
-    margin-bottom: 9px;
+    margin-bottom: 0.5625rem;
 }
 .sixth-screen .contacts div img:nth-child(3){
-    margin: 57px 0px 5px 0px;
+    margin: 3.5625rem 0 0.3125rem 0;
 }
 .sixth-screen .contacts div img:nth-child(4){
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
 }
 .sixth-screen .contacts h6{
     font-weight: 400;
-    width: 440px;
-    font-size: 20px;
-    margin: 0px;
+    width: 27.5rem;
+    font-size: 1.25rem;
+    margin: 0;
 }
 .number-wrapper{
     font-weight: 700;
 }
 
 .sixth-screen .email{
-    margin: 50px 71px 0px 71px;
+    margin: 3.125rem 4.4375rem 0 4.4375rem;
     box-sizing: border-box;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -290,38 +273,33 @@ nav ul li:nth-child(4){
     flex-direction: column;
 }
 .sixth-screen .email img{
-    margin: 82.5px 93px 82.5px 61px;
+    margin: 5.16rem 5.81rem 5.16rem 3.81rem;
 }
 .sixth-screen .email div h2{
-    margin-top: 60px;
-    width: 476.67px;
+    margin-top: 3.75rem;
+    width: 29.75rem;
     font-weight: 400;
-    font-size: 27px;
-    line-height: 32.4px;
+    font-size: 1.6875rem;
+    line-height: 120%;
 }
 .sixth-screen .email div input{
-    width: 541.5px;
-    height: 66px;
-    border-radius: 61px;
+    width: 33.8125rem;
+    height: 4.125rem;
+    border-radius: 3.8125rem;
     border: none;
     font-family: "Montserrat";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #F9FADF;
-    padding-left: 43px;
+    padding-left: 2.6875rem;
 }
 .sixth-screen .email div input:nth-child(3){
-    margin: 31px 0px;
+    margin: 1.9375rem 0;
 }
 .sixth-screen .email div input::placeholder{
-    margin: 21px 400px 21px 43px;
+    margin: 1.3125rem 25rem 1.3125rem 2.6875rem;
     color: black;
 }
 .sixth-screen .email div a{
     text-align: center;
-    font-size: 18px;
-    background-color: #7AE5FD;
-    border: none;
-    border-radius: 87px;
-    padding: 21px 35px;
 }
